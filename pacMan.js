@@ -1,6 +1,6 @@
 var Score = 0;
 
-function addScore  (Score, eaten) {
+function addScore  (eaten) {
   switch (eaten) {
     case "dot":
       Score += 10;
@@ -17,7 +17,7 @@ function addScore  (Score, eaten) {
   return Score
 }
 
-console.log(addScore(Score, "dot"));
+console.log(addScore("dot"));
 
 //
 //
